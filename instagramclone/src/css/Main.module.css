@@ -1,0 +1,93 @@
+
+.userpost{
+    
+     
+    position: absolute;
+    left:25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    top:85px;
+    
+    width: 700px;
+}
+.postname{
+    height:70px;
+    border:1px solid black;
+    padding-left:20px;
+    padding-top: 25px;;
+}
+.postimg{
+    height:580px;
+    position: relative;
+    
+}
+.postimg img{
+    height:100%;
+    width:100%;
+    background-size: contain;
+}
+.fbi{
+height:38px !important;
+margin-right: 10px;
+margin-left: 5px;
+margin-top: 2px;
+
+width:38px !important;
+}
+.fbi1{
+    color:red !important;
+    
+        height:38px !important;
+        margin-right: 10px;
+        margin-left: 5px;
+        margin-top: 2px;
+        
+        width:38px !important;
+    
+}
+
+.cmntbtn{
+    height:40px;
+    flex: 0.2;
+}
+.spn1{
+    font-weight: 600;
+    overflow: scroll;
+    color:black;
+    font-size: 20px;
+    
+}
+.spn2{
+    color:grey;
+    font-weight: 300;
+    
+    font-size: 15px;
+}
+.postbtn{
+    border:1px solid black;
+    height:50px;
+    
+}
+.postcmnt{
+    border:1px solid black;
+    max-height:100px;
+    padding:10px;
+    overflow-x: scroll;
+    
+}
+.postcmnt::-webkit-scrollbar{
+    display: none;
+}
+.postinput{
+    display: flex;
+    align-items: center;
+   
+    margin-bottom: 40px;
+    
+
+}
+.postinput input{
+    padding: 10px;
+ flex:0.8;
+    height:40px;
+}
